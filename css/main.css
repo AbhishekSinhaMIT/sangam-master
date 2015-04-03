@@ -1,0 +1,365 @@
+
+body {
+  font-family:'Open Sans';
+}
+
+.gray {
+  background: #eeeeee;
+}
+
+.featurette {
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.space {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
+
+#resources-top .img-responsive {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#sponsors-top .img-responsive {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#about-top .img-responsive {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#events-top .img-responsive {
+  margin: 1%;
+}
+.medium-text {
+  font-size: 15px;
+}
+
+#sponsors-top .medium-text {
+  text-align: left;
+}
+
+/* ==== Buttons ==== */
+
+.btn-warning {
+  background-color: #f27242;
+  border-color: #f27242;
+}
+
+.btn-warning:hover {
+  background-color: #f15a22;
+  border-color: #f15a22;
+}
+
+/* ==== Galleria ==== */
+
+.galleria {
+  height:480px;
+}
+
+.galleria-stage {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.galleria-info {
+  top: 0px;
+  left: 0px;
+  width: 100%
+}
+
+.galleria-info-close {
+  top: 9px;
+  right: 9px;
+}
+
+.galleria-info-link {
+  top: 9px;
+  left: 9px;
+}
+
+/* ==== Grid Gallery ==== */
+
+#grid-gallery-events .grid li {
+  width: 25%; 
+}
+
+@media screen and (max-width: 60em) {
+	#grid-gallery-events .grid li {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 35em) {
+	#grid-gallery-events .grid li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 24em) {
+	#grid-gallery-events .grid li {
+		width: 100%;
+	}
+}
+
+.grid-wrap {
+  max-width: 100%;
+}
+
+.grid figcaption {
+  background: #ffffff;
+}
+.event-img {
+  margin: 0%;
+}
+.event-text {
+  background: #eeeeee;
+}
+.profile {
+  margin: 7%;
+}
+
+.profile-title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.profile-text {
+  margin: 10px;
+}
+
+/* ==== Footer ==== */
+
+#main-footer {
+	margin-top:20px;
+	background:#EEEEEE;
+	color: #64686D;
+}
+
+#main-footer>.container {
+	padding:30px 0;
+}
+
+/*
+#main-footer input, #about-us input {
+	margin-bottom: 8px;
+}
+*/
+#main-footer h3 {
+	letter-spacing:.05em;
+	font-weight:700;
+	font-size:12px;
+}
+
+#main-footer form {
+	margin: 0;
+}
+
+#footer {
+	font-size:12px;
+}
+
+#footer p {
+	margin:20px 0;
+}
+
+#footer a {
+	color:#FF6B45;
+}
+
+#footer a:hover {
+	color:#f5603b;
+	text-decoration: none;
+}
+
+#top-footer-steps {
+	background-color:#E6E6E6;
+}
+
+#bottom-footer {
+  text-align: center;
+	color: #7B8085;
+}
+
+/* ==== Social icons ==== */
+
+.share-icons,.follow-icons {
+	margin:0;
+	list-style:none;
+	padding:0;
+}
+
+.share-icons li,.follow-icons li {
+	float:left;
+	margin-right:3px;
+	margin-bottom:3px;
+	width:30px;
+	height:30px;
+}
+
+.share-icons li a,.follow-icons li a {
+	z-index:20;
+	display:block;
+	height:30px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	background:url(../img/static/social.png);
+	text-decoration:none;
+	text-indent:-9000px;
+	cursor: pointer;
+}
+
+.share-icons li a {
+	background-color:#FFF;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);	
+}
+
+.follow-icons li a {
+	background-color:#fff;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);	
+}
+
+.share-icons li a:hover,.follow-icons li a:hover {
+	background-color:#FF833D;
+}
+
+.share-icons li a.fb-share,.follow-icons li a.fb-share {
+	background-position:-30px 0;
+}
+
+.share-icons li a:hover.fb-share,.follow-icons li a:hover.fb-share {
+	background-position:-30px -30px;
+}
+
+.share-icons li a.tw-share,.follow-icons li a.tw-share {
+	background-position:0 0;
+}
+
+.share-icons li a:hover.tw-share,.follow-icons li a:hover.tw-share {
+	background-position:0 -30px;
+}
+
+.share-icons li a.pin-share,.follow-icons li a.pin-share {
+	background-position:-90px 0;
+}
+
+.share-icons li a:hover.pin-share,.follow-icons li a:hover.pin-share {
+	background-position:-90px -30px;
+}
+
+.share-icons li a.gp-share,.follow-icons li a.gp-share {
+	background-position:-60px 0;
+}
+
+.share-icons li a:hover.gp-share,.follow-icons li a:hover.gp-share {
+	background-position:-60px -30px;
+}
+
+.follow-icons li a.rss {
+	background-position:-120px 0;
+}
+
+.follow-icons li a:hover.rss {
+	background-position:-120px -30px;
+}
+
+
+.logo-white-header {
+  width: 120px;
+  height: 58px;
+  background-image: url("../img/static/sangam_logo.png");
+  -webkit-backface-visibility: hidden;
+  opacity: .85;
+  transition: 0.07s linear;
+  -moz-transition: 0.07s linear;
+  -webkit-transition: 0.07s linear; 
+}
+
+.logo-white-header:hover {
+  opacity: 1; 
+}
+
+
+.banner-img {
+  background: url("../img/static/banner.png") no-repeat transparent;
+  background-size: cover; 
+}
+
+.banner {
+  background-color: #fafafa;
+}
+
+header {
+  color: #333333; 
+}
+
+header > .container {
+  padding-top: 15px;
+}
+
+header h1, header h2, header h3, header h4, header h5 {
+  color: #333333; 
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+@media(max-width: 1199px) {
+  header h1 {
+    font-size: 30pt;
+  }
+}
+
+@media(max-width: 991px) {
+  header h1 {
+    font-size: 24pt;
+  }
+  header .lead {
+    font-size: 12pt;
+  }
+}
+
+@media(max-width: 767px) {
+  header h1 {
+    font-size: 24pt;
+  }
+  header .row{
+    text-align: center;
+  }
+}
+
+.nav {
+  padding-top: 15px;
+}
+.navbar-header button {
+  margin-top: 22px;
+}
+.navbar {
+  margin-bottom: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgba(34, 34, 34, 1);
+}
+.navbar-brand {
+  padding: 8px;
+}
+
